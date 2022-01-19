@@ -1,0 +1,13 @@
+{
+  "name": "Useful",
+  "description": "A useful chromium extension designed to increase your real-life producivity",
+  "manifest_version": 3,
+  "version": "0.1.0",
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["funny.js"]
+    }
+  ]
+}
